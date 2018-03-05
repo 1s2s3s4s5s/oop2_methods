@@ -36,6 +36,7 @@ public class Oop2_graph {
         rect1.height = 100;
         rect1.width = 150;
         
+        
         //System.out.println(rect1.getS());
         //int result = rect1.getS();
         //System.out.println(result);
@@ -49,6 +50,11 @@ public class Oop2_graph {
         //System.out.println(rect1.toString());
         
         System.out.println(Math.PI);
+        
+         Circle circle = new Circle();
+        circle.start = new Point(30, 40);
+        circle.r = 100;
+        System.out.printf("x = %f" , circle.gets());
     }
     
 }
